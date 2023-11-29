@@ -1,7 +1,7 @@
 
 import "./home.css"
 export default function HomePage(){
-  const pdfFile_url= "https://portfolio-yosra-wahedi.vercel.app/CV.pdf"
+  const pdfFile_url= "http://localhost:3000/CV.pdf"
   const downloadFileURL=(url)=>{
 fetch(url).then(response=>response.blob()).then(blob=>{
   const bloburl= window.URL.createObjectURL(new Blob([blob]))
