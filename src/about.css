@@ -1,0 +1,28 @@
+
+  hr {
+    border-color:  rgb(255, 187, 0);
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-width: 5px;
+   margin:auto;
+}
+
+.about_img{
+  width: 280px;
+  margin-bottom: -30px;
+  position: relative;
+  padding-bottom: 0px;
+  float: left;
+  
+}
+
+.container-fluid{
+  padding:3% 15%;
+  text-align: center;
+  color: rgb(255, 187, 0);
+}
+
+.container-fluid> p{
+  color: aliceblue;
+}

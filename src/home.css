@@ -1,0 +1,27 @@
+
+#features{
+    position: relative;
+}
+.black-section{
+    color: aliceblue;
+    margin: 150px 40px 0 40px;
+}
+
+.container-fluid{
+    padding:3% 15%;
+    text-align: center;
+}
+.home-img {
+     width: 400px;
+     position: relative;
+     padding-bottom: 50px;
+ }
+   .feature-title{
+    font-size:20px;
+}
+
+@media only screen and (max-width: 768px){
+    .home-img {
+        width: 300px;
+    }
+}

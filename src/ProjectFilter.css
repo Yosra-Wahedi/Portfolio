@@ -1,0 +1,35 @@
+h1{
+    color: rgb(243, 187, 3);
+    text-Align: center;
+} 
+.filter-input {
+    width: 40%;
+    height: 35px;
+    font-size: 15px;
+    margin: 10px;
+  }
+.filter-label{
+    font-size: 18px;
+  font-weight: 400;
+  color: white;
+  margin-left: 3rem;
+}
+#sty{
+    border-radius: 8px;
+}
+#sea{
+    margin-left: 5rem;
+}
+@media screen and (max-width: 720px) {
+  .filter-label{
+    margin-left: 3rem;
+  }
+  #sea{
+    margin-left: 5rem;
+}
+    .filter-input {
+      width: 40%;
+      height: 30px;
+     
+    } 
+}
